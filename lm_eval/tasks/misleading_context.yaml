@@ -1,0 +1,11 @@
+dataset_path: logianwilliam/misleading_context_prompts
+task: misleading_context
+output_type: multiple_choice
+training_split: null
+validation_split: validation
+test_split: null
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+doc_to_choice: !function utils.doc_to_choice
+metric_list:
+  - metric: accuracy

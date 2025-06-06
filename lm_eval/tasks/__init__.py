@@ -4,6 +4,7 @@ import logging
 import os
 from functools import partial
 from typing import Dict, List, Mapping, Optional, Union
+from .misleading_context import MisleadingContext
 
 from lm_eval import utils
 from lm_eval.api.group import ConfigurableGroup, GroupConfig
